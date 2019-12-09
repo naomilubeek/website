@@ -1,0 +1,115 @@
+/* Basislayout */
+
+html, body {
+    height: 100%;
+    padding: 0;
+    background-color: rgba(4, 1, 53, 0.534);
+    
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+title {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+main {
+    margin: 0 auto;
+    width: 700px;
+    position: relative;
+}
+
+
+article {
+    text-align: justify;
+    background-color: rgb(4,1,53);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+
+header {
+    color:rgb(255, 255, 255); 
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+footer {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+
+
+/* opmaak navbar */
+.navbar {
+  overflow: hidden;
+  background-color: rgb(4, 1, 54);
+  font-family: Arial;
+}
+
+/* links waar naartoe wordt gelinkt in de navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* de dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* info over de button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+  margin: 0; 
+}
+
+/* Kleur als je hovered over de navbar met muis */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: rgb(11, 30, 138);
+}
+
+/* content van het dropdown menu */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #eef3fdd7;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* infor over de links in de dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* geeft kleur aan link wanneer je hovered */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* laat dropdown menu zien wanneer je hovered */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
