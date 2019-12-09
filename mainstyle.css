@@ -1,0 +1,98 @@
+html, body {
+    height: 100%;
+    padding: 0;
+    background-color: rgba(4, 1, 53, 0.534);
+    
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+main {
+    margin: 0 auto;
+    width: 700px;
+    position: relative;
+}
+
+
+header {
+    color:rgb(255, 255, 255); 
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+footer {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+
+/* navigatiebalk */
+
+nav {
+    width: 800px;
+    margin: auto;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    width: 120px;
+    background: #0080cd;
+    float: left;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    margin-right: 2px;
+    position: relative;
+}
+
+ul li:hover{
+    background: #ff0000;
+}
+
+ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-family: sans-serif;
+    display: block;
+}
+
+ul li ul li {
+    background: yellow;
+}
+
+ul li ul{
+    display: none;
+}
+
+ul li:hover ul{
+    display: block;
+}
+
+ul li ul li ul li{
+    background: yellow;
+}
+
+ul li ul li ul{
+    display: none;
+}
+
+ul li ul li:hover ul{
+    display: block;
+}
+
+ul li ul .itam-2 {
+    position: absolute;
+    left: 0px;
+    top: 100;
+    display: none;
+}
+
+ul li ul li ul li:last-child:hover { 
+    display: block;
+}
+

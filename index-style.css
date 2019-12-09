@@ -1,25 +1,13 @@
 /* Basislayout */
 
-html, body {
-    height: 100%;
-    padding: 0;
-    background-color: rgba(4, 1, 53, 0.534);
-    
-    color: rgb(255, 255, 255);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: bold;
-}
+
 
 title {
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-main {
-    margin: 0 auto;
-    width: 700px;
-    position: relative;
-}
+
 
 
 article {
@@ -29,18 +17,6 @@ article {
     
 }
 
-
-header {
-    color:rgb(255, 255, 255); 
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-
-footer {
-    text-align: center;
-    padding-bottom: 10px;
-}
 
 
 
