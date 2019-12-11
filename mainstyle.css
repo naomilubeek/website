@@ -30,16 +30,20 @@ footer {
 
 /* navigatiebalk */
 
+/* navbalk zelf*/
 nav {
     width: 800px;
     margin: auto;
 }
 
-ul {
+
+nav ul {
     list-style: none;
+    padding-left: 0px;
 }
 
-ul li {
+/* blokjes in de nav*/
+nav ul li {
     width: 120px;
     background: #0080cd;
     float: left;
@@ -50,49 +54,49 @@ ul li {
     position: relative;
 }
 
-ul li:hover{
+/* wanneer je op de navblokjes hovered */
+nav ul li:hover{
     background: #ff0000;
 }
 
-ul li a{
+/* tekst in de navblokjes*/
+nav ul li a{
     color: #fff;
     text-decoration: none;
     font-family: sans-serif;
     display: block;
 }
 
-ul li ul li {
+/*kleur dropdownblokjes*/
+nav ul li ul li {
+    background: green;
+}
+
+nav ul li ul{
+    display: none;
+}
+
+nav ul li:hover ul{
+    display: block;
+}
+
+nav ul li:hover ul li ul{
+    display: none;
+}
+
+/* dropdropdownblok */
+nav ul li ul li ul li{
     background: yellow;
 }
 
-ul li ul{
+nav ul li ul li ul{
     display: none;
 }
 
-ul li:hover ul{
+nav ul li ul li:hover ul.submenu{
+    position: relative;
     display: block;
-}
-
-ul li ul li ul li{
-    background: yellow;
-}
-
-ul li ul li ul{
-    display: none;
-}
-
-ul li ul li:hover ul{
-    display: block;
-}
-
-ul li ul .itam-2 {
-    position: absolute;
-    left: 0px;
-    top: 100;
-    display: none;
-}
-
-ul li ul li ul li:last-child:hover { 
-    display: block;
+    top: -35px;
+    left: 120px;
 }
 
