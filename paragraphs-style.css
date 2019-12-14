@@ -1,6 +1,6 @@
 article.article-1 {
     text-align:left;
-    background-color: rgb(255, 2, 2);
+    background-color: #D2C2F8;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 10px;
     float: left; 
@@ -16,3 +16,30 @@ article.article-2 {
     width: 505px;
 }
 
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 2px dotted red; 
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width:120px;
+    background-color: black; 
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 97%;
+    left: 56%;
+    margin-left: -60%;
+    opacity: 0;
+    transition: opacity 1s; 
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1; 
+}
