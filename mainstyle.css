@@ -1,8 +1,7 @@
 html, body {
     height: 100%;
     padding: 0;
-    background-color: rgba(4, 1, 53, 0.534);
-    
+    background-color: #CCDDFF;
     color: rgb(255, 255, 255);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
@@ -34,6 +33,7 @@ footer {
 nav {
     width: 800px;
     margin: auto;
+    max-width: 800px;
 }
 
 
@@ -44,19 +44,19 @@ nav ul {
 
 /* blokjes in de nav*/
 nav ul li {
-    width: 120px;
-    background: #0080cd;
+    width: 175px; 
+    background: #3C5568;
     float: left;
     height: 35px;
     line-height: 35px;
     text-align: center;
-    margin-right: 2px;
     position: relative;
+    
 }
 
 /* wanneer je op de navblokjes hovered */
 nav ul li:hover{
-    background: #ff0000;
+    background: #0F273A;
 }
 
 /* tekst in de navblokjes*/
@@ -69,7 +69,7 @@ nav ul li a{
 
 /*kleur dropdownblokjes*/
 nav ul li ul li {
-    background: green;
+    background: #CCBBFF;
 }
 
 nav ul li ul{
@@ -86,7 +86,7 @@ nav ul li:hover ul li ul{
 
 /* dropdropdownblok */
 nav ul li ul li ul li {
-    background: purple;
+    background: #CCCCFF;
 }
 
 
@@ -98,6 +98,6 @@ nav ul li ul li:hover ul.submenu{
     position: relative;
     display: block;
     top: -35px;
-    left: 120px;
+    left: 175px;
 }
 
