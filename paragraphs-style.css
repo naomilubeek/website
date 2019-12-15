@@ -1,6 +1,6 @@
-article.article-1 {
+article.article-1-bio {
     text-align:left;
-    background-color: #D2C2F8;
+    background-color: #50C878;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 10px;
     float: left; 
@@ -14,12 +14,12 @@ article.article-2 {
     padding: 10px;
     float: right;
     width: 505px;
+    margin-bottom: 10px;
 }
 
 .tooltip {
     position: relative;
-    display: inline-block;
-    border-bottom: 2px dotted red; 
+    display: inline-block; 
 }
 
 .tooltip .tooltiptext {
@@ -32,7 +32,7 @@ article.article-2 {
     padding: 5px 0;
     position: absolute;
     z-index: 1;
-    bottom: 97%;
+    bottom: 100%;
     left: 56%;
     margin-left: -60%;
     opacity: 0;
@@ -43,3 +43,36 @@ article.article-2 {
     visibility: visible;
     opacity: 1; 
 }
+
+.center {
+  text-align: center;
+}
+
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #ddd;
+  margin: 0 4px;
+}
+
+.pagination a.active {
+  background-color: #50C878;
+  color: white;
+  border: 1px solid #50C878;
+}
+
+/*
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+@font-face {
+    font-family: LEVIBRUSH; 
+    src: url(levi_brush_font_7001.zip)
+}
+*/

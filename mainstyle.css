@@ -87,6 +87,7 @@ nav ul li:hover ul li ul{
 /* dropdropdownblok */
 nav ul li ul li ul li {
     background: #CCCCFF;
+    opacity: 100%;
 }
 
 
