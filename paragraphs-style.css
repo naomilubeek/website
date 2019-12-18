@@ -31,7 +31,7 @@ article.article-2 {
     border-radius: 5px;
     padding: 5px 0;
     position: absolute;
-    z-index: 1;
+    z-index: 3;
     bottom: 100%;
     left: 56%;
     margin-left: -60%;
@@ -46,6 +46,11 @@ article.article-2 {
 
 .center {
   text-align: center;
+}
+
+p {
+    z-index: 2;
+    position: relative;
 }
 
 .pagination {
@@ -72,7 +77,15 @@ article.article-2 {
 
 .pagination a:hover:not(.active) {background-color: #ddd;}
 
+.paragraaftitel {
+    font-family: tortilla;
+    font-size: 60px ;
+    margin: 15px;
+    color: #0F273A;
+    text-shadow: 3px 3px white;
+}
+
 @font-face {
     font-family: tortilla;
-    src: url(fonts/tortilla.ttf)
+    src: url(fonts/tortilla.ttf);
 }
