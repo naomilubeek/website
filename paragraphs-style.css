@@ -19,7 +19,8 @@ article.article-2 {
 
 .tooltip {
     position: relative;
-    display: inline-block; 
+    z-index: inherit;
+    display: inline-block;
 }
 
 .tooltip .tooltiptext {
@@ -31,12 +32,11 @@ article.article-2 {
     border-radius: 5px;
     padding: 5px 0;
     position: absolute;
-    z-index: 3;
     bottom: 100%;
     left: 56%;
     margin-left: -60%;
     opacity: 0;
-    transition: opacity 1s; 
+    transition: opacity 1.5s; 
 }
 
 .tooltip:hover .tooltiptext {
@@ -49,7 +49,6 @@ article.article-2 {
 }
 
 p {
-    z-index: 2;
     position: relative;
 }
 

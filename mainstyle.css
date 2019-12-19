@@ -40,6 +40,7 @@ nav {
 nav ul {
     list-style: none;
     padding-left: 0px;
+
 }
 
 /* blokjes in de nav*/
@@ -51,7 +52,7 @@ nav ul li {
     line-height: 35px;
     text-align: center;
     position: relative;
-    
+    z-index: 10;
 }
 
 /* wanneer je op de navblokjes hovered */
@@ -70,6 +71,7 @@ nav ul li a{
 /*kleur dropdownblokjes*/
 nav ul li ul li {
     background: #CCBBFF;
+    z-index: 10;
 }
 
 nav ul li ul{
