@@ -10,11 +10,12 @@ article.article-1-bio {
 article.article-2 {
     text-align: left;
     background-color: #0F273A;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: apple;
     padding: 10px;
     float: right;
     width: 505px;
     margin-bottom: 10px;
+    font-size: 20px; 
 }
 
 .tooltip {
@@ -48,9 +49,6 @@ article.article-2 {
   text-align: center;
 }
 
-p {
-    position: relative;
-}
 
 .pagination {
   display: inline-block;
@@ -87,4 +85,14 @@ p {
 @font-face {
     font-family: tortilla;
     src: url(fonts/tortilla.ttf);
+}
+
+@font-face {
+    font-family: geosanslight;
+    src: url(fonts/GeosansLight.ttf);
+}
+
+@font-face {
+    font-family: apple;
+    src: url(fonts/minimal.otf);
 }
