@@ -126,3 +126,17 @@ nav ul li ul li:hover ul.submenu{
 .zoom {
     transition: transform .5s ease;
 }
+
+.paragraaftitel {
+    font-family: tortilla;
+    font-size: 100px ;
+    margin: 15px;
+    color: #0F273A;
+    text-shadow: 3px 3px white;
+
+}
+
+@font-face {
+    font-family: tortilla;
+    src: url(fonts/tortilla.ttf);
+}

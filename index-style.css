@@ -2,14 +2,6 @@
 
 
 
-title {
-    color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-
-
-
 article {
     text-align: justify;
     background-color: #0F273A;
@@ -17,4 +9,26 @@ article {
     padding: 10px;
 }
 
+.article-links {
+    text-align:left;
+    background-color: #50C878;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    float: left; 
+    width: 450px;
+    margin-bottom: 120px;
+}
 
+.article-rechts {
+    text-align:left;
+    background-color: #red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    float: left; 
+    width: 210px;
+}
+
+.boxeromheen {
+    border: #0F273A solid 3px;
+    padding: 5px;
+}
