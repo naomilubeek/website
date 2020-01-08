@@ -7,7 +7,23 @@ article.article-1-bio {
     width: 155px;
 }
 
+article.article-1-nat {
+    text-align:left;
+    background-color: pink; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    float: left; 
+    width: 155px;
+}
 
+article.article-1-sk {
+    text-align:left;
+    background-color: #AF69EE; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    float: left; 
+    width: 155px;
+}
 
 article.article-2 {
     text-align: left;
