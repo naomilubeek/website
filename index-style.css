@@ -24,11 +24,8 @@ article {
     background-color: #red;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 10px;
-    float: left; 
+    float: right; 
     width: 210px;
 }
 
-.boxeromheen {
-    border: #0F273A solid 3px;
-    padding: 5px;
-}
+
